@@ -29,7 +29,7 @@ header
 {
 	position:fixed;
 	float:left;
-	color:#fff;
+	color:black	;
 	font-weight: bold;
 	font-size:24px;
 }
@@ -45,7 +45,7 @@ nav ul
 	list-style: none;
 	background:rgba(0,0,0,0);
 	overflow: hidden;
-	color: #fff;
+	color: black;
 	padding: 0;
 	text-align: center;
 	margin: 0;
@@ -82,4 +82,44 @@ nav ul li
 	color: #fff;
 	display: none;
 
+}
+
+@media(max-width: 580px)
+{
+	.logo
+	{
+		position: fixed;	
+		top: 10%;
+		margin-top: 16px;
+	}
+
+	nav ul
+	{
+		max-height: 0px;
+		background: #000;
+	}
+
+	nav .black ul
+	{
+		background: #000;	
+	}
+
+	.showing
+	{
+		max-height: 20em;
+
+	}
+
+	nav ul li
+	{
+		box-sizing: border-box;
+		width: 100%;
+		padding: 24px 0;
+		text-align: center;
+	}
+
+	menu-icon
+	{
+		display: block;
+	}
 }

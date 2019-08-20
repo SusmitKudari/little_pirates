@@ -51,5 +51,26 @@
 
 		</div>
 
+			<script type="text/javascript">
+				
+				$(document).ready(function(){
+					$("menu-icon").on("click",function(){
+						$("nav-ul").toogleClass("showing");
+					});
+				});	
+
+				$("window").on("scroll",function(){
+					if($(window).scrollTop()){
+						$('nav').addClass('black');
+
+					}
+
+					else
+					{
+						$('nav').removeClass('black');
+					}
+				}) 
+			</script>
+
 </body>
-</html>
+</html>	
