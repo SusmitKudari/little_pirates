@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>FASHION WORLD</title>
+	<title>FASHION WORLD of Girls</title>
 </head>
 <body>
 
